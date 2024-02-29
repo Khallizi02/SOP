@@ -1,50 +1,33 @@
- mkdir Atividade01
+cd Desktop
+md Documentos
+cd Documentos
+md Projetos
+md Pessoais
 dir
-cd Atividade01
-echo Nota01.txt
+cd ..
 dir
-md Nota01.txt
+ren /y Atividade01 Trabalhos
 dir
-md Nota02.txt
+ren Atividade01 Trabalhos
 dir
-type Nota02.txt
-echo omghhh Nota02.txt
-type Nota02.txt
-copy
-copy con Nota02.txt
+cd Documentos
+move C:\Users\Aluno\Desktop\Trabalhos C:\Users\Aluno\Desktop\Documentos
+dir
+move C:\Users\Aluno\Desktop\BackUp C:\Users\Aluno\Desktop\Documento 
+dir
+cd ..
+dir
+cd Documentos
+dir
+md Backup
+dir
+ren Pessoais Lazer
+dir
+copy con Viagem.txt
 
-type Nota02.txt
-cls
-cd ..
-md BackUp
-cd BackUp
-copy con Nota01.txt
+copy con Viagem.txt
+EspanhÆ                                                                                                                                                                                                            Colombia                                                                                                                                                                                                           Peru                                                                                    
+Sim
 
-copy con Nota02.txt
-
-cd ..
-cd Atividade01
-dir
-Del Nota01.txt
-s
-Del Nota02.txt
-s
-dir
-Del Nota01.txt
-S
-dir
-smt
-cls
-cd ..
-Del /s /q Atividade01
-cd Atividade01
-dir
-desisto
-llllllllllll
-l
-cls
-dir
-cd ..
-cd backup
- dir
-doskey /h
+tree /f
+doskey /h  >> Vedilson.txt
